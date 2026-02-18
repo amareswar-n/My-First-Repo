@@ -1,0 +1,8 @@
+Example Workflow:
+
+1. git checkout -b feature-login
+2. Make changes
+3. git add .
+4. git commit -m "Implement login validation"
+5. git checkout main
+6. git merge feature-login
