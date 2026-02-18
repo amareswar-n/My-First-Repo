@@ -1,21 +1,24 @@
-# GitFoundations – SuperNova Professional Edition
 
-This repository simulates a real-world production project called **SuperNova**.
+# GitFoundations – SuperNova Command Handbook
 
-It follows structured phase progression:
+This repository structures Git commands according to official Git categories,
+using the SuperNova project storyline.
 
-Phase 1 – Foundations  
-Phase 2 – Feature Development  
-Phase 3 – Release Engineering  
-Phase 4 – Advanced Workflows  
-Phase 5 – Expert & Recovery Engineering  
+Categories:
 
-Each phase includes:
-- Narrative scenario
-- Inline command explanations
-- Commit message standards
-- Official documentation references
-- Production best practices
+1. Setup and Config
+2. Getting and Creating Projects
+3. Basic Snapshotting
+4. Branching and Merging
+5. Sharing and Updating Projects
+6. Inspection and Comparison
+7. Patching
+8. Debugging
 
-This is not a command cheat-sheet.
-It is a professional Git engineering progression model.
+Each command file includes:
+- SuperNova context
+- Example usage
+- Reference to official documentation
+
+This structure mirrors the official Git reference manual:
+https://git-scm.com/docs

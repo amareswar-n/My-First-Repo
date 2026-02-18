@@ -1,0 +1,32 @@
+
+# help
+
+## SuperNova Story Context
+You are working on the SuperNova production system.
+This section demonstrates how `help` is used in a real engineering workflow.
+
+---
+
+## Basic Usage
+
+```bash
+git help
+```
+
+---
+
+## Example in SuperNova
+
+```bash
+# Example usage in context
+git help --help
+```
+
+---
+
+## Common Options
+
+Refer to official documentation for detailed flags and advanced options.
+
+Docs:
+https://git-scm.com/docs/git-help
