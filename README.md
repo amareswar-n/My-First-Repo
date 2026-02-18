@@ -2,131 +2,144 @@
 
 ## 📌 Overview
 
-**GitFoundations** is a structured learning repository dedicated to
-mastering Git and version control from first principles. This project
-serves as a practical workspace for understanding how modern development
-workflows operate --- from basic commits to advanced branching
-strategies and collaborative pull request management.
+**GitFoundations** is a structured and progressive learning repository
+designed to master Git and GitHub from foundational concepts to
+expert-level workflows.
+It combines practical experimentation with official documentation
+references to ensure accurate, production-grade understanding of version
+control systems.
 
-Rather than being a one-off tutorial repository, GitFoundations is
-designed as a hands-on lab environment where version control concepts
-are explored, tested, and refined through real examples.
-
-------------------------------------------------------------------------
-
-## 🎯 Purpose
-
-The goal of this repository is to build a strong foundation in:
-
--   Git fundamentals
--   Branching and merging strategies
--   Pull request workflows
--   Conflict resolution
--   Commit best practices
--   Collaborative development patterns
--   Repository management techniques
-
-This space reflects a deliberate approach to understanding not just
-*how* Git works, but *why* certain workflows are preferred in
-professional software development environments.
+This repository evolves from beginner fundamentals to advanced Git
+internals and professional GitHub workflows.
 
 ------------------------------------------------------------------------
 
-## 🧱 What This Repository Covers
+## 🎯 Learning Path
 
-### 1️⃣ Core Git Concepts
+GitFoundations is organized into structured levels:
 
--   Initializing repositories
--   Tracking changes
--   Writing meaningful commit messages
--   Understanding Git history
--   Resetting and reverting changes
-
-### 2️⃣ Branching Strategies
-
--   Feature branching
--   Main vs development workflows
--   Safe merging practices
--   Handling merge conflicts
-
-### 3️⃣ Pull Request Workflow
-
--   Creating structured pull requests
--   Reviewing changes
--   Merging responsibly
--   Understanding collaborative patterns
-
-### 4️⃣ Repository Hygiene
-
--   Clean commit history
--   Logical project structure
--   Documentation standards
--   Version control discipline
+-   **Beginner** -- Core Git concepts and basic workflows
+-   **Intermediate** -- Branching strategies and collaboration
+-   **Advanced** -- History rewriting, debugging, recovery
+-   **Expert** -- Git internals, monorepos, advanced workflows
 
 ------------------------------------------------------------------------
 
-## 🛠 Learning Approach
+## 🧱 Core Topics Covered
 
-This repository follows a practical, experiment-driven methodology:
+### 🟢 Beginner
 
--   Make changes intentionally
--   Observe Git behavior
--   Analyze commit history
--   Improve workflow clarity
--   Document lessons learned
+-   Repository initialization
+-   Staging and committing
+-   Remote repositories
+-   Basic branching
 
-Each exercise reinforces real-world practices used in production
-development environments.
+📖 Official Docs: - https://git-scm.com/docs/git -
+https://docs.github.com/en/get-started
+
+------------------------------------------------------------------------
+
+### 🟡 Intermediate
+
+-   Feature branching strategies
+-   Merge conflicts
+-   Pull requests
+-   Collaborative workflows
+
+📖 Official Docs: - https://git-scm.com/docs/git-branch -
+https://git-scm.com/docs/git-merge -
+https://docs.github.com/en/pull-requests
+
+------------------------------------------------------------------------
+
+### 🔵 Advanced
+
+-   Cherry-picking (`git cherry-pick`)
+-   Interactive rebase (`git rebase -i`)
+-   Git bisect debugging
+-   Reflog recovery
+-   Safe force pushing
+
+📖 Official Docs: - https://git-scm.com/docs/git-cherry-pick -
+https://git-scm.com/docs/git-rebase -
+https://git-scm.com/docs/git-bisect -
+https://git-scm.com/docs/git-reflog - https://git-scm.com/docs/git-push
+
+------------------------------------------------------------------------
+
+### 🟣 Expert
+
+-   Git internals (blobs, trees, commits)
+-   Submodules
+-   Sparse checkout
+-   Worktrees
+-   Git hooks (client & server side)
+-   Monorepo strategies
+
+📖 Official Docs: -
+https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain -
+https://git-scm.com/docs/git-submodule -
+https://git-scm.com/docs/git-sparse-checkout -
+https://git-scm.com/docs/git-worktree -
+https://git-scm.com/docs/githooks
+
+------------------------------------------------------------------------
+
+## 🚀 GitHub Advanced Topics (Planned Expansion)
+
+-   GitHub Actions (CI/CD)
+-   Protected branches
+-   CODEOWNERS
+-   Security scanning
+-   Release management
+-   Semantic versioning
+
+📖 Official GitHub Docs: - https://docs.github.com/en/actions -
+https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository -
+https://docs.github.com/en/code-security
 
 ------------------------------------------------------------------------
 
 ## 📁 Repository Structure
 
-    /docs           → Notes, learning summaries, and workflow explanations  
-    /examples       → Sample commits, branching demonstrations  
-    /workflows      → Practical Git workflow simulations  
-    /experiments    → Testing edge cases and conflict scenarios  
+    /docs
+      /beginner
+      /intermediate
+      /advanced
+      /expert
 
-The structure evolves as learning deepens.
+    /examples
+    /workflows
+    /experiments
 
-------------------------------------------------------------------------
-
-## 🧠 Why Git Foundations Matter
-
-Strong Git fundamentals are critical for:
-
--   Professional software development
--   Open-source contributions
--   Team collaboration
--   CI/CD workflows
--   Production deployment pipelines
-
-A solid understanding of Git is not optional --- it is foundational to
-modern engineering practice.
+Each directory contains hands-on exercises, workflow simulations, and
+technical notes aligned with official Git documentation.
 
 ------------------------------------------------------------------------
 
-## 🚀 Long-Term Vision
+## 🧠 Philosophy
 
-GitFoundations is not a static repository.
-It evolves as new workflows, tools, and best practices are explored.
+> Master fundamentals.
+> Understand internals.
+> Apply workflows responsibly.
 
-Future expansions may include:
-
--   Advanced rebasing strategies
--   Git hooks and automation
--   Monorepo management concepts
--   Contribution simulations
--   CI/CD integration examples
+This repository emphasizes professional discipline, safe collaboration,
+and deep technical understanding of Git mechanics.
 
 ------------------------------------------------------------------------
 
-## 📈 Philosophy
+## 🔗 Recommended Reading
 
-> Master the fundamentals.
-> Build discipline.
-> Develop clarity.
+-   Pro Git Book (Official & Free):
+    https://git-scm.com/book/en/v2
 
-This repository represents the intentional effort to move beyond
-surface-level Git usage toward structured, professional-level version
-control practices.
+-   Git Reference Manual:
+    https://git-scm.com/docs
+
+-   GitHub Documentation Hub:
+    https://docs.github.com/
+
+------------------------------------------------------------------------
+
+GitFoundations is not just a learning repo ---
+it is a structured progression toward production-level Git expertise.
